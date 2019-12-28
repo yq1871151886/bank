@@ -6,6 +6,15 @@
     <ignored path="$PROJECT_DIR$/bank-user/target/" />
     <ignored path="$PROJECT_DIR$/bank-cloud/demo/target/" />
     <ignored path="$PROJECT_DIR$/bank-cloud/bank-user/target/" />
+    <ignored path="$PROJECT_DIR$/bank-cloud/commons/target/" />
+    <ignored path="$PROJECT_DIR$/bank-cloud/bank-deposit-api/target/" />
+    <ignored path="$PROJECT_DIR$/bank-cloud/bank-depositrate-api/target/" />
+    <ignored path="$PROJECT_DIR$/bank-cloud/bank-account-api/target/" />
+    <ignored path="$PROJECT_DIR$/bank-cloud/bank-customer-api/target/" />
+    <ignored path="$PROJECT_DIR$/bank-cloud/bank-fund-api/target/" />
+    <ignored path="$PROJECT_DIR$/bank-cloud/bank-loan-api/target/" />
+    <ignored path="$PROJECT_DIR$/bank-cloud/bank-remit-api/target/" />
+    <ignored path="$PROJECT_DIR$/bank-cloud/bank-transfer-api/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,17 +27,65 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bank-cloud/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+            <state relative-caret-position="416">
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bank-cloud/bank-user/pom.xml">
+        <entry file="file://$PROJECT_DIR$/bank-cloud/commons/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="-832">
+              <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BankWithdrawExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bank-cloud/commons/src/main/java/com/fh/beans/fh/beans/BankWithdrawExample.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="BankFundHoldExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bank-cloud/commons/src/main/java/com/fh/beans/fh/beans/BankFundHoldExample.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="BankLoanPaymentInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bank-cloud/commons/src/main/java/com/fh/beans/fh/beans/loan/BankLoanPaymentInfo.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="BankFundProductExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bank-cloud/commons/src/main/java/com/fh/beans/fh/beans/BankFundProductExample.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="BankLoanType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bank-cloud/commons/src/main/java/com/fh/beans/fh/beans/BankLoanType.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="BankDeposit.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bank-cloud/commons/src/main/java/com/fh/beans/fh/beans/BankDeposit.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="BankLoanApplyInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bank-cloud/commons/src/main/java/com/fh/beans/fh/beans/loan/BankLoanApplyInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginAnnotation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bank-cloud/commons/src/main/java/com/fh/beans/loginAop/LoginAnnotation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="14" selection-start-line="14" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -38,8 +95,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bank-cloud/pom.xml" />
         <option value="$PROJECT_DIR$/bank-cloud/bank-user/pom.xml" />
+        <option value="$PROJECT_DIR$/bank-cloud/commons/src/main/java/com/fh/beans/fh/beans/BankDeposit.java" />
+        <option value="$PROJECT_DIR$/bank-cloud/commons/src/main/java/com/fh/beans/loginAop/LoginAnnotation.java" />
+        <option value="$PROJECT_DIR$/bank-cloud/commons/pom.xml" />
+        <option value="$PROJECT_DIR$/bank-cloud/pom.xml" />
       </list>
     </option>
   </component>
@@ -83,7 +143,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -92,10 +151,79 @@
               <item name="bank-cloud-consul" type="b2602c69:ProjectViewProjectNode" />
               <item name="bank-cloud" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="bank-cloud-consul" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bank-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bank-cloud-consul" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bank-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bank-cloud-consul" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bank-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bank-cloud-consul" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bank-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bank-cloud-consul" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bank-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bank-cloud-consul" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bank-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="fh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bank-cloud-consul" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bank-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="fh" type="462c0819:PsiDirectoryNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bank-cloud-consul" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bank-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="fh" type="462c0819:PsiDirectoryNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
+              <item name="loginAop" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -110,6 +238,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java学习\7month\项目\银行项目\bank\bank-cloud\bank-cloud\commons\src\main\java\com\fh\beans" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -122,7 +255,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.BankUserApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -142,9 +275,45 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="BankAccountApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="bank-account-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fh.BankAccountApiApplication" />
+    </configuration>
+    <configuration name="BankCustomerApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="bank-customer-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fh.BankCustomerApiApplication" />
+    </configuration>
+    <configuration name="BankDepositApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="bank-deposit-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fh.BankDepositApiApplication" />
+    </configuration>
+    <configuration name="BankDepositrateApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="bank-depositrate-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fh.BankDepositrateApiApplication" />
+    </configuration>
+    <configuration name="BankFundApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="bank-fund-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fh.BankFundApiApplication" />
+    </configuration>
+    <configuration name="BankLoanApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="bank-loan-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fh.BankLoanApiApplication" />
+    </configuration>
+    <configuration name="BankRemitApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="bank-remit-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fh.BankRemitApiApplication" />
+    </configuration>
+    <configuration name="BankTransferApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="bank-transfer-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fh.BankTransferApiApplication" />
+    </configuration>
     <configuration name="BankUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="bank-user" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.fh.BankUserApplication" />
+    </configuration>
+    <configuration name="CommonsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="commons" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fh.CommonsApplication" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -168,6 +337,18 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.BankUserApplication" />
+      <item itemvalue="Spring Boot.CommonsApplication" />
+      <item itemvalue="Spring Boot.BankDepositApiApplication" />
+      <item itemvalue="Spring Boot.BankDepositrateApiApplication" />
+      <item itemvalue="Spring Boot.BankAccountApiApplication" />
+      <item itemvalue="Spring Boot.BankCustomerApiApplication" />
+      <item itemvalue="Spring Boot.BankFundApiApplication" />
+      <item itemvalue="Spring Boot.BankLoanApiApplication" />
+      <item itemvalue="Spring Boot.BankRemitApiApplication" />
+      <item itemvalue="Spring Boot.BankTransferApiApplication" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -181,19 +362,21 @@
       <updated>1577420294812</updated>
       <workItem from="1577420297328" duration="879000" />
       <workItem from="1577445057385" duration="809000" />
+      <workItem from="1577518341283" duration="948000" />
+      <workItem from="1577519313398" duration="537000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1688000" />
+    <option name="totallyTimeSpent" value="3173000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.22121535" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.22107969" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -208,11 +391,11 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20842217" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21079692" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -234,6 +417,41 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/bank-cloud/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank-cloud/commons/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank-cloud/bank-user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank-cloud/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank-cloud/bank-user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank-cloud/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
         </state>
@@ -247,17 +465,75 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bank-cloud/demo/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/bank-cloud/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bank-cloud/bank-user/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank-cloud/commons/src/main/java/com/fh/beans/fh/beans/BankLoanPaylog.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank-cloud/commons/src/main/java/com/fh/beans/fh/beans/BankUser.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank-cloud/commons/src/main/java/com/fh/beans/fh/beans/BankLoanPaylogExample.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank-cloud/commons/src/main/java/com/fh/beans/fh/beans/BankLoan.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank-cloud/commons/src/main/java/com/fh/beans/fh/beans/BankWithdrawExample.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank-cloud/commons/src/main/java/com/fh/beans/fh/beans/BankFundHoldExample.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank-cloud/commons/src/main/java/com/fh/beans/fh/beans/loan/BankLoanPaymentInfo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank-cloud/commons/src/main/java/com/fh/beans/fh/beans/BankFundProductExample.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank-cloud/commons/src/main/java/com/fh/beans/fh/beans/BankLoanType.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank-cloud/commons/src/main/java/com/fh/beans/fh/beans/BankDeposit.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank-cloud/commons/src/main/java/com/fh/beans/BankWithdrawExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank-cloud/commons/src/main/java/com/fh/beans/fh/beans/loan/BankLoanApplyInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank-cloud/commons/src/main/java/com/fh/beans/loginAop/LoginAnnotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" selection-start-line="14" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank-cloud/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank-cloud/commons/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-832">
+          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -313,7 +589,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>bank-user</last-edited>
+          <last-edited>commons</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

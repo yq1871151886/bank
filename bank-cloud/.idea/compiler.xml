@@ -6,13 +6,31 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="bank-account-api" />
         <module name="bank-cloud" />
+        <module name="bank-customer-api" />
+        <module name="bank-deposit-api" />
+        <module name="bank-depositrate-api" />
+        <module name="bank-fund-api" />
+        <module name="bank-loan-api" />
+        <module name="bank-remit-api" />
+        <module name="bank-transfer-api" />
         <module name="bank-user" />
+        <module name="commons" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="bank-account-api" target="1.7" />
       <module name="bank-cloud" target="1.7" />
+      <module name="bank-customer-api" target="1.7" />
+      <module name="bank-deposit-api" target="1.7" />
+      <module name="bank-depositrate-api" target="1.7" />
+      <module name="bank-fund-api" target="1.7" />
+      <module name="bank-loan-api" target="1.7" />
+      <module name="bank-remit-api" target="1.7" />
+      <module name="bank-transfer-api" target="1.7" />
       <module name="bank-user" target="1.7" />
+      <module name="commons" target="1.7" />
       <module name="demo" target="1.7" />
     </bytecodeTargetLevel>
   </component>

@@ -5,6 +5,15 @@
       <list>
         <option value="$PROJECT_DIR$/bank-cloud/pom.xml" />
         <option value="$PROJECT_DIR$/bank-cloud/bank-user/pom.xml" />
+        <option value="$PROJECT_DIR$/bank-cloud/commons/pom.xml" />
+        <option value="$PROJECT_DIR$/bank-cloud/bank-deposit-api/pom.xml" />
+        <option value="$PROJECT_DIR$/bank-cloud/bank-depositrate-api/pom.xml" />
+        <option value="$PROJECT_DIR$/bank-cloud/bank-account-api/pom.xml" />
+        <option value="$PROJECT_DIR$/bank-cloud/bank-customer-api/pom.xml" />
+        <option value="$PROJECT_DIR$/bank-cloud/bank-fund-api/pom.xml" />
+        <option value="$PROJECT_DIR$/bank-cloud/bank-loan-api/pom.xml" />
+        <option value="$PROJECT_DIR$/bank-cloud/bank-remit-api/pom.xml" />
+        <option value="$PROJECT_DIR$/bank-cloud/bank-transfer-api/pom.xml" />
       </list>
     </option>
   </component>
