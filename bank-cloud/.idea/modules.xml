@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/bank-cloud/bank-remit-api/bank-remit-api.iml" filepath="$PROJECT_DIR$/bank-cloud/bank-remit-api/bank-remit-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/bank-cloud/bank-transfer-api/bank-transfer-api.iml" filepath="$PROJECT_DIR$/bank-cloud/bank-transfer-api/bank-transfer-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/bank-cloud/bank-user/bank-user.iml" filepath="$PROJECT_DIR$/bank-cloud/bank-user/bank-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bank-cloud/bank-web/bank-web.iml" filepath="$PROJECT_DIR$/bank-cloud/bank-web/bank-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/bank-cloud/commons/commons.iml" filepath="$PROJECT_DIR$/bank-cloud/commons/commons.iml" />
     </modules>
   </component>
