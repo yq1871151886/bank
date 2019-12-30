@@ -7,7 +7,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="bank-account-api" />
-        <module name="bank-cloud" />
         <module name="bank-customer-api" />
         <module name="bank-deposit-api" />
         <module name="bank-depositrate-api" />
@@ -30,6 +29,8 @@
       <module name="bank-remit-api" target="1.7" />
       <module name="bank-transfer-api" target="1.7" />
       <module name="bank-user" target="1.7" />
+      <module name="bankcommons" target="1.7" />
+      <module name="common" target="1.7" />
       <module name="commons" target="1.7" />
       <module name="demo" target="1.7" />
     </bytecodeTargetLevel>
