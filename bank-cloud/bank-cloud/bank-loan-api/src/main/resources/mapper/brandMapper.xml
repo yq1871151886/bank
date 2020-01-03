@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.fh.dao.BrandDao"><!--框架规定标签 namespace:实现与数据库交互的接口-->
+  <!--  <cache eviction="FIFO" flushInterval="60000" size="512" readOnly="false"/>-->
+    <!--通过该类型id查询该类型对应的品牌-->
+    <select id="queryBrandList" >
+
+   </select>
+
+</mapper>
