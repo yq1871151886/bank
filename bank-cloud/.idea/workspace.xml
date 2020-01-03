@@ -29,8 +29,8 @@
       <file leaf-file-name="CustomerController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bank-cloud/bank-customer-api/src/main/java/com/fh/controller/CustomerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="424">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,7 +41,7 @@
       <file leaf-file-name="CustomerDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bank-cloud/bank-customer-api/src/main/java/com/fh/dao/CustomerDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
+            <state relative-caret-position="156">
               <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -65,17 +65,35 @@
       <file leaf-file-name="customerMapper.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bank-cloud/bank-customer-api/src/main/resources/mapper/customerMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <state relative-caret-position="130">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginAnnotationAop.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BankCustomerMapper.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bank-cloud/bank-customer-api/src/main/resources/mapper/BankCustomerMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4639">
+              <caret line="286" column="31" lean-forward="true" selection-start-line="286" selection-start-column="31" selection-end-line="286" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bank-cloud/bank-customer-api/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="9" column="79" lean-forward="true" selection-start-line="9" selection-start-column="79" selection-end-line="9" selection-end-column="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginAnnotationAop.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bank-cloud/commons/src/main/java/com/fh/loginAop/LoginAnnotationAop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="26" column="50" lean-forward="true" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
+            <state relative-caret-position="156">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,7 +105,7 @@
         <entry file="file://$PROJECT_DIR$/bank-cloud/commons/src/main/java/com/fh/controller/test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="104">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -129,9 +147,9 @@
         <option value="$PROJECT_DIR$/bank-cloud/pom.xml" />
         <option value="$PROJECT_DIR$/bank-cloud/commons/src/main/java/com/fh/enumbean/ResponseEnum.java" />
         <option value="$PROJECT_DIR$/bank-cloud/commons/src/main/java/com/fh/jwt/JwtUtils.java" />
+        <option value="$PROJECT_DIR$/bank-cloud/commons/src/main/java/com/fh/beans/BankCustomer.java" />
         <option value="$PROJECT_DIR$/bank-cloud/bank-customer-api/src/main/java/com/fh/controller/CustomerController.java" />
         <option value="$PROJECT_DIR$/bank-cloud/bank-customer-api/src/main/resources/mapper/customerMapper.xml" />
-        <option value="$PROJECT_DIR$/bank-cloud/commons/src/main/java/com/fh/beans/BankCustomer.java" />
       </list>
     </option>
   </component>
@@ -179,6 +197,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -259,6 +280,29 @@
               <item name="bank-customer-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="fh" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bank-cloud-consul" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bank-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="bank-customer-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="fh" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bank-cloud-consul" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bank-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="bank-customer-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -270,69 +314,10 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="bank-cloud-consul" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bank-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="commons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bank-cloud-consul" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bank-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="commons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bank-cloud-consul" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bank-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="commons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bank-cloud-consul" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bank-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="commons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bank-cloud-consul" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bank-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="commons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bank-cloud-consul" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bank-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="commons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="fh" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bank-cloud-consul" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bank-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="commons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="fh" type="462c0819:PsiDirectoryNode" />
-              <item name="loginAop" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -349,6 +334,10 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Java学习\7month\项目\银行项目\bank\bank-cloud\bank-cloud\commons\src\main\java\com\fh" />
+      <recent name="E:\Java学习\7month\项目\银行项目\bank\bank-cloud\bank-cloud\bank-web\src\components" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.fh" />
     </key>
@@ -356,10 +345,6 @@
       <recent name="E:\Java学习\7month\项目\银行项目\bank\bank-cloud\bank-cloud\bank-customer-api\src\main\resources\mapper" />
       <recent name="E:\Java学习\7month\项目\银行项目\bank\bank-cloud\bank-cloud\commons\src\main\java\com\fh" />
       <recent name="E:\Java学习\7month\项目\银行项目\bank\bank-cloud\bank-cloud\commons\src\main\java\com\fh\beans" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Java学习\7month\项目\银行项目\bank\bank-cloud\bank-cloud\commons\src\main\java\com\fh" />
-      <recent name="E:\Java学习\7month\项目\银行项目\bank\bank-cloud\bank-cloud\bank-web\src\components" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -374,7 +359,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.BankUserApplication">
+  <component name="RunManager" selected="Spring Boot.BankRemit-8008">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -394,45 +379,50 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="BankAccountApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="BankAccount-8004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="bank-account-api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.fh.BankAccountApiApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
-    <configuration name="BankCustomerApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="BankCustomer-8005" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="bank-customer-api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.fh.BankCustomerApiApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
-    <configuration name="BankDepositApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="BankDeposit-8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="bank-deposit-api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.fh.BankDepositApiApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
-    <configuration name="BankDepositrateApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="BankDepositrate-8003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="bank-depositrate-api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.fh.BankDepositrateApiApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
-    <configuration name="BankFundApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="BankFund-8006" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="bank-fund-api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.fh.BankFundApiApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
-    <configuration name="BankLoanApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="BankLoan-8007" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="bank-loan-api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.fh.BankLoanApiApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
-    <configuration name="BankRemitApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="BankRemit-8008" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="bank-remit-api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.fh.BankRemitApiApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
-    <configuration name="BankTransferApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="BankTransfer-8009" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="bank-transfer-api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.fh.BankTransferApiApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
-    <configuration name="BankUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="BankUser-8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="bank-user" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.fh.BankUserApplication" />
-    </configuration>
-    <configuration name="CommonsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="commons" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fh.CommonsApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -457,16 +447,15 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.BankUserApplication" />
-      <item itemvalue="Spring Boot.CommonsApplication" />
-      <item itemvalue="Spring Boot.BankDepositApiApplication" />
-      <item itemvalue="Spring Boot.BankDepositrateApiApplication" />
-      <item itemvalue="Spring Boot.BankAccountApiApplication" />
-      <item itemvalue="Spring Boot.BankCustomerApiApplication" />
-      <item itemvalue="Spring Boot.BankFundApiApplication" />
-      <item itemvalue="Spring Boot.BankLoanApiApplication" />
-      <item itemvalue="Spring Boot.BankRemitApiApplication" />
-      <item itemvalue="Spring Boot.BankTransferApiApplication" />
+      <item itemvalue="Spring Boot.BankUser-8001" />
+      <item itemvalue="Spring Boot.BankDeposit-8002" />
+      <item itemvalue="Spring Boot.BankDepositrate-8003" />
+      <item itemvalue="Spring Boot.BankAccount-8004" />
+      <item itemvalue="Spring Boot.BankCustomer-8005" />
+      <item itemvalue="Spring Boot.BankFund-8006" />
+      <item itemvalue="Spring Boot.BankLoan-8007" />
+      <item itemvalue="Spring Boot.BankRemit-8008" />
+      <item itemvalue="Spring Boot.BankTransfer-8009" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -487,15 +476,15 @@
       <workItem from="1577616303106" duration="45000" />
       <workItem from="1577625691397" duration="8247000" />
       <workItem from="1577670766423" duration="165000" />
+      <workItem from="1577976257740" duration="1667000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13763000" />
+    <option name="totallyTimeSpent" value="15430000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -518,7 +507,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.32880434" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.20923913" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2159383" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.218509" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -538,6 +527,50 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bank-cloud/bank-customer-api/src/main/java/com/fh/dao/CustomerDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank-cloud/commons/src/main/java/com/fh/beans/BankCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank-cloud/bank-customer-api/src/main/resources/mapper/customerMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank-cloud/commons/src/main/java/com/fh/controller/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank-cloud/commons/src/main/java/com/fh/loginAop/LoginAnnotationAop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="26" column="50" lean-forward="true" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bank-cloud/bank-customer-api/src/main/java/com/fh/controller/CustomerController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -770,38 +803,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bank-cloud/bank-customer-api/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bank-cloud/bank-customer-api/src/main/resources/mapper/BankCustomerMapper.xml" />
     <entry file="file://$PROJECT_DIR$/bank-cloud/commons/src/main/java/com/fh/beans/BankCustomerExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bank-cloud/bank-customer-api/src/main/java/com/fh/controller/CustomerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bank-cloud/bank-customer-api/src/main/java/com/fh/dao/CustomerDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -815,27 +820,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bank-cloud/bank-customer-api/src/main/resources/mapper/customerMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bank-cloud/commons/src/main/java/com/fh/controller/test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bank-cloud/commons/src/main/java/com/fh/loginAop/LoginAnnotationAop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="26" column="50" lean-forward="true" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
+        <state relative-caret-position="156">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank-cloud/bank-customer-api/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="79" lean-forward="true" selection-start-line="9" selection-start-column="79" selection-end-line="9" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank-cloud/bank-customer-api/src/main/java/com/fh/dao/CustomerDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank-cloud/bank-customer-api/src/main/java/com/fh/controller/CustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank-cloud/bank-customer-api/src/main/resources/mapper/customerMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank-cloud/bank-customer-api/src/main/resources/mapper/BankCustomerMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4639">
+          <caret line="286" column="31" lean-forward="true" selection-start-line="286" selection-start-column="31" selection-end-line="286" selection-end-column="31" />
         </state>
       </provider>
     </entry>
