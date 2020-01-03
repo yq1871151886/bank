@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.fh.dao.DepositDao">
+    <select id="queryDepositRecords" resultType="com.fh.beans.BankDeposit" parameterType="java.lang.String">
+      select deposit_id,cust_id,account,deposit_type,
+      deposit_money,deposit_rate,deposit_date,deposit_duration,
+      transfer_way,reviewer_id,deposit_flag
+      from bank_deposit
+      where account = #{account}
+    </select>
+
+</mapper>
