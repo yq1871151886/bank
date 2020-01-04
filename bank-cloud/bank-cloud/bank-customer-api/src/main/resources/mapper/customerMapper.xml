@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.fh.dao.DetailDao">
+<mapper namespace="com.fh.dao.CustomerDao">
     <!--二级缓存，不推荐开启-->
     <!--<cache-ref namespace="com.fh.dao.ShopsDao"/>-->
+    <sql id="Base_Column_List" >
+    cust_id, cust_name, password, identity_card, cust_type, sex, phone, address, email,
+    credit
+    </sql>
 
-
+    <select id="selectByPo" resultMap="com.fh.beans.BankCustomer" parameterType="com.fh.beans.BankCustomerPo" >
+        select
+        <if test="customerPo.distinct" >
+            distinct
+        </if>
+        <include refid="Base_Column_List" />
+        from bank_customer
+        <if test="customerPo.orderByClause != null" >
+            order by #{orderByClause}
+        </if>
+    </select>
 
 </mapper>

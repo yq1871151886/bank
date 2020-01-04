@@ -8,4 +8,6 @@ import org.springframework.stereotype.Repository;
 @Mapper
 @Repository
 public interface LoanMapper extends BaseMapper<BankLoan> {
+
+
 }

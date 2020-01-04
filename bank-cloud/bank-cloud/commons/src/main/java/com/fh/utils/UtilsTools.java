@@ -12,7 +12,7 @@ public class UtilsTools {
 
 
 
-    public static HttpServletRequest getSession(){
+    public static HttpServletRequest getRequest(){
         HttpServletRequest request=((ServletRequestAttributes)(RequestContextHolder.currentRequestAttributes())).getRequest();
             return request;
     }
@@ -23,7 +23,7 @@ public class UtilsTools {
     }
 
 
-    public static String getOrderId(){
+    public static String getSnowId(){
         return IdWorker.getIdStr();
     }
 
