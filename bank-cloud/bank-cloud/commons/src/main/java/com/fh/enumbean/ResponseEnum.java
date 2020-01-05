@@ -23,6 +23,7 @@ public enum ResponseEnum {
 
     ,CUSTOMER_ADD_SUCCESS(200,"新增用户成功")
     ,CUSTOMER_DELETE_SUCCESS(200,"删除用户成功")
+    ,DATE_TABLE_ERROR(400,"数据表查询异常")
     ;
 
 
