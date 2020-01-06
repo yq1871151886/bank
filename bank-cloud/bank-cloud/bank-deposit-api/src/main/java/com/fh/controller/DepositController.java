@@ -18,13 +18,16 @@ public class DepositController {
 
     //Deposit records查询存款记录
     @PostMapping("/queryDepositRecords")
-    public List<BankDeposit> queryDepositRecords(String account){
+    public ResponseServer queryDepositRecords(String account){
         List<BankDeposit> list = depositService.queryDepositRecords(account);
-        return list;
+        return ResponseServer.success(list);
     }
 
-
-
-
+    //存款
+    @PostMapping("/insertDeposit")
+    public ResponseServer insertDeposit(BankDeposit bankDeposit){
+        depositService.insertDeposit(bankDeposit);
+        return ResponseServer.success();
+    }
 
 }

@@ -15,4 +15,9 @@ public class DepositServiceImpl implements DepositService {
     public List<BankDeposit> queryDepositRecords(String account) {
         return depositDao.queryDepositRecords(account);
     }
+
+    @Override
+    public void insertDeposit(BankDeposit bankDeposit) {
+         depositDao.insert(bankDeposit);
+    }
 }

@@ -6,4 +6,6 @@ import java.util.List;
 
 public interface DepositService {
     List<BankDeposit> queryDepositRecords(String account);
+
+    void insertDeposit(BankDeposit bankDeposit);
 }
