@@ -19,6 +19,11 @@ public enum ResponseEnum {
     ,LOGIN_CONTENT_LONG(516,"服务器连接超时异常")
     ,LOGIN_SERVER_BUSYNESS(516,"服务器错误")
     ,MAKE_SUCCESS(200,"操作成功")
+
+
+    ,CUSTOMER_ADD_SUCCESS(200,"新增用户成功")
+    ,CUSTOMER_DELETE_SUCCESS(200,"删除用户成功")
+    ,DATE_TABLE_ERROR(400,"数据表查询异常")
     ;
 
 
