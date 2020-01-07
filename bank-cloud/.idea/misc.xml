@@ -17,6 +17,7 @@
         <option value="$PROJECT_DIR$/bank-cloud/bank-loan-api/pom.xml" />
         <option value="$PROJECT_DIR$/bank-cloud/bank-remit-api/pom.xml" />
         <option value="$PROJECT_DIR$/bank-cloud/bank-transfer-api/pom.xml" />
+        <option value="$PROJECT_DIR$/bank-cloud/bank-call/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

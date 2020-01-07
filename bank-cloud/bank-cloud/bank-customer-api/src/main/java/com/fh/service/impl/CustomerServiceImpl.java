@@ -69,9 +69,9 @@ public class CustomerServiceImpl implements CustomerService {
      * @return
      */
     @Override
-    public ResponseServer getCustomerById(String custId) {
+    public BankCustomer getCustomerById(String custId) {
         BankCustomer bankCustomer = customerDao.selectById(custId);
-        return ResponseServer.success(bankCustomer);
+        return bankCustomer;
     }
 
 

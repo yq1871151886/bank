@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/bank-cloud/bank-account-api/bank-account-api.iml" filepath="$PROJECT_DIR$/bank-cloud/bank-account-api/bank-account-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bank-cloud/bank-call/bank-call.iml" filepath="$PROJECT_DIR$/bank-cloud/bank-call/bank-call.iml" />
       <module fileurl="file://$PROJECT_DIR$/bank-cloud/bank-cloud.iml" filepath="$PROJECT_DIR$/bank-cloud/bank-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/bank-cloud/bank-customer-api/bank-customer-api.iml" filepath="$PROJECT_DIR$/bank-cloud/bank-customer-api/bank-customer-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/bank-cloud/bank-deposit-api/bank-deposit-api.iml" filepath="$PROJECT_DIR$/bank-cloud/bank-deposit-api/bank-deposit-api.iml" />

@@ -24,6 +24,20 @@ public enum ResponseEnum {
     ,CUSTOMER_ADD_SUCCESS(200,"新增用户成功")
     ,CUSTOMER_DELETE_SUCCESS(200,"删除用户成功")
     ,DATE_TABLE_ERROR(400,"数据表查询异常")
+
+
+    ,REMIT_CUSTOMER_NAME_ERROR(400,"用户姓名不匹配！")
+    ,REMIT_CUSTOMER_PHONE_ERROR(400,"用户电话不匹配！")
+    ,REMIT_OUTACCOUNT_ISBLANK_ERROR(400,"汇款账户不存在！")
+    ,REMIT_ACCOUNT_PWD_ERROR(400,"密码错误！")
+    ,REMIT_INACCOUNT_NAME_ERROR(400,"提款账户不存在！")
+    ,REMIT_OUTACCOUNT_BALANCE_NONE_ERROR(400,"汇款账户余额不足！")
+    ,REMIT_ISBLANK_ERROR(400,"汇票不存在！")
+    ,REMIT_INACCOUNT_is_ERROR(400,"提款账户不匹配！")
+    ,REMIT_EXTRACTED_ERROR(400,"汇款已被提取！")
+
+
+
     ;
 
 

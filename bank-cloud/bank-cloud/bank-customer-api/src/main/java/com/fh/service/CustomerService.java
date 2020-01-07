@@ -31,7 +31,7 @@ public interface CustomerService {
      * @param custId
      * @return
      */
-    ResponseServer getCustomerById(String custId);
+    BankCustomer getCustomerById(String custId);
 
     /**
      * 根据客户名获取客户信息

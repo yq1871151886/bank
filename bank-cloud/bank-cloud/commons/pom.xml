@@ -112,6 +112,22 @@
         </dependency>
 
 
+        <!--实现ribbon的重试机制所必须要导入的依赖-->
+        <dependency>
+            <groupId>org.springframework.retry</groupId>
+            <artifactId>spring-retry</artifactId>
+        </dependency>
+        <!--httpclient的替代品，ribbon的替代品-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
+        <!--实现熔断所需要的依赖-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+            <version>2.0.0.RELEASE</version>
+        </dependency>
 
 
 
