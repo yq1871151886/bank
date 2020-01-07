@@ -20,21 +20,36 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="bank-account-api" target="1.7" />
-      <module name="bank-call" target="1.7" />
-      <module name="bank-cloud" target="1.7" />
-      <module name="bank-customer-api" target="1.7" />
-      <module name="bank-deposit-api" target="1.7" />
+      <module name="bank-account-api" target="1.8" />
+      <module name="bank-call" target="1.8" />
+      <module name="bank-cloud" target="1.8" />
+      <module name="bank-customer-api" target="1.8" />
+      <module name="bank-deposit-api" target="1.8" />
       <module name="bank-depositrate-api" target="1.8" />
-      <module name="bank-fund-api" target="1.7" />
-      <module name="bank-loan-api" target="1.7" />
-      <module name="bank-remit-api" target="1.7" />
-      <module name="bank-transfer-api" target="1.7" />
+      <module name="bank-fund-api" target="1.8" />
+      <module name="bank-loan-api" target="1.8" />
+      <module name="bank-remit-api" target="1.8" />
+      <module name="bank-transfer-api" target="1.8" />
       <module name="bank-user" target="1.8" />
       <module name="bankcommons" target="1.7" />
       <module name="common" target="1.7" />
-      <module name="commons" target="1.7" />
+      <module name="commons" target="1.8" />
       <module name="demo" target="1.7" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bank-account-api" options="-parameters" />
+      <module name="bank-call" options="-parameters" />
+      <module name="bank-customer-api" options="-parameters" />
+      <module name="bank-deposit-api" options="-parameters" />
+      <module name="bank-depositrate-api" options="-parameters" />
+      <module name="bank-fund-api" options="-parameters" />
+      <module name="bank-loan-api" options="-parameters" />
+      <module name="bank-remit-api" options="-parameters" />
+      <module name="bank-transfer-api" options="-parameters" />
+      <module name="bank-user" options="-parameters" />
+      <module name="commons" options="-parameters" />
+    </option>
   </component>
 </project>

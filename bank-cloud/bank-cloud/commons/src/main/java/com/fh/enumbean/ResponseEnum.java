@@ -41,7 +41,8 @@ public enum ResponseEnum {
     ,REMIT_REPAYMENT_ERROR(400,"还款金额不合法")
     ,REQUEST_ERROR(400,"请求错误")
     ,LOAN_NUMBER_NOT_EXIT(400,"贷款交易号不存在，请检查输入正确性")
-
+    ,CHUANGJIANZHANGHU_ERROR(700,"创建账户失败")
+    ,SHANCHUZHANGHU_ERROR(701,"创建账户失败")
 
     ;
 

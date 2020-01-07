@@ -1,26 +1,42 @@
 package com.fh.beans;
+import com.baomidou.mybatisplus.annotation.TableField;
+import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.TableName;
 
+@TableName("bank_account")
 public class BankAccount {
+
+    @TableId(value = "account")
     private String account;
 
+    @TableField("cust_id")
     private String custId;
 
+    @TableField("deposit_bank")
     private String depositBank;
 
+    @TableField("balances")
     private Double balances;
 
+    @TableField("blocked_balances")
     private Double blockedBalances;
 
+    @TableField("open_date")
     private String openDate;
 
+    @TableField("cancel_date")
     private String cancelDate;
 
+    @TableField("account_kind")
     private String accountKind;
 
+    @TableField("account_type")
     private String accountType;
 
+    @TableField("account_status")
     private String accountStatus;
 
+    @TableField("password")
     private String password;
 
     public String getAccount() {
