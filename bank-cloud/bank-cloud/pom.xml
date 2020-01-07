@@ -17,6 +17,7 @@
     <modules>
         <module>commons</module>
         <module>bank-customer-api</module>
+        <module>bank-loan-api</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>
