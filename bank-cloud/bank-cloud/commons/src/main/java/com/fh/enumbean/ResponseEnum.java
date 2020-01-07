@@ -35,7 +35,12 @@ public enum ResponseEnum {
     ,REMIT_ISBLANK_ERROR(400,"汇票不存在！")
     ,REMIT_INACCOUNT_is_ERROR(400,"提款账户不匹配！")
     ,REMIT_EXTRACTED_ERROR(400,"汇款已被提取！")
-
+    ,REMIT_INSUFFICIENT_REPAYMENT_BALANCE(400,"还款金额超过账户余额")
+    ,REMIT_ID_NUMBER_ERROR(400,"身份证号不正确")
+    ,REMIT_NAME_ACCOUNT_ERROR(400,"姓名与账户不匹配")
+    ,REMIT_REPAYMENT_ERROR(400,"还款金额不合法")
+    ,REQUEST_ERROR(400,"请求错误")
+    ,LOAN_NUMBER_NOT_EXIT(400,"贷款交易号不存在，请检查输入正确性")
 
 
     ;
