@@ -1,15 +1,26 @@
 package com.fh.beans;
 
+import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableField;
+import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.TableName;
+import lombok.Data;
+
+@TableName("bank_loan_paylog")
 public class BankLoanPaylog {
+
+    @TableId(value = "paylog_id",type =IdType.INPUT)
     private String paylogId;
 
+    @TableField("trans_id")
     private String transId;
-
+    @TableField("pay_amount")
     private Double payAmount;
-
+    @TableField("pay_date")
     private String payDate;
-
+    @TableField("account")
     private String account;
+
 
     public String getPaylogId() {
         return paylogId;

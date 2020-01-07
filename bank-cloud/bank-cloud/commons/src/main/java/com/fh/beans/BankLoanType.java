@@ -1,15 +1,27 @@
 package com.fh.beans;
 
+import com.baomidou.mybatisplus.annotation.TableField;
+import com.baomidou.mybatisplus.annotation.TableName;
+
+@TableName("bank_loan_type")
 public class BankLoanType {
+
+    @TableField("loan_type_name")
     private String loanTypeName;
 
+    @TableField("period_one")
     private Double periodOne;
 
+    @TableField("period_two")
     private Double periodTwo;
 
+    @TableField("period_three")
     private Double periodThree;
 
+    @TableField("fine_rate")
     private Double fineRate;
+
+
 
     public String getLoanTypeName() {
         return loanTypeName;
