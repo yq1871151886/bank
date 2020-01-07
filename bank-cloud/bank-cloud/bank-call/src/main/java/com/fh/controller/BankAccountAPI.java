@@ -17,4 +17,6 @@ public interface BankAccountAPI {
 
     @PostMapping(value = "/{bankAccount}")
     void updateByPrimaryKey(@PathVariable(value = "bankAccount") BankAccount bankAccount);
+
+    void updateByPrimaryKeySelective(BankAccount bankAccount);
 }

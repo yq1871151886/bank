@@ -14,4 +14,5 @@ public interface BankCustomerAPI {
     BankCustomer getCustomerById(@PathVariable(value = "custId") String custId);
 
 
+    BankCustomer selectByPrimaryKey(String custId);
 }
