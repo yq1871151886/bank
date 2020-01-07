@@ -4,8 +4,8 @@ import com.fh.beans.BankAccount;
 import com.fh.enumbean.ResponseEnum;
 import com.fh.enumbean.ResponseServer;
 import com.fh.service.IAccountService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 
 @RestController
@@ -14,10 +14,12 @@ public class BankAccounController {
 
 
 
+      @Autowired
       private IAccountService iaccountService;
 
-
-      // 新建一个账户（已测试）
+      // 新建一个客户（已测试）
+      @RequestMapping(value = "/new", method = RequestMethod.POST)
+      @ResponseBody
       public ResponseServer addAccount(@RequestParam(value = "custName") String custName, BankAccount account) {
             System.out.println(custName);
             System.out.println(account.toString());
@@ -32,7 +34,7 @@ public class BankAccounController {
 
 
       // 删除一个账户（已测试）
-      @RequestMapping(value = "/account/delete", method = RequestMethod.POST)
+      @RequestMapping(value = "/delete", method = RequestMethod.POST)
       public ResponseServer deleteAccount(@RequestParam(value = "account") String account) {
             boolean success = iaccountService.delete(account);
             if (success) {
@@ -43,16 +45,13 @@ public class BankAccounController {
       }
 
 
+
       // 返回该id的客户所有账户信息（返回中文乱码）
-      @RequestMapping(value = "/account/{custId}", method = RequestMethod.GET)
-      @ResponseBody
-      public ResponseServer getAccounts(@PathVariable String custId) {
+      @GetMapping(value = "/{custId}")
+      public ResponseServer getAccounts(@PathVariable("custId") String custId) {
             List<BankAccount> accountList = iaccountService.getAccounts(custId);
             return  ResponseServer.success(accountList);
       }
-
-
-
 
 
 

@@ -23,7 +23,7 @@ public class LoginAnnotationAop {
     @Around(value = "execution(* com.fh.controller.*.*(..))&&@annotation(loginAnnotation)")
     public Object LoginPoint(ProceedingJoinPoint joinPoint,LoginAnnotation loginAnnotation){
 
-        HttpServletRequest request = UtilsTools.getSession();
+        HttpServletRequest request = UtilsTools.getRequest();
         String token = request.getHeader("token");
         if (StringUtils.isBlank(token) || token==""){
             throw  new AuthenticateException(ResponseEnum.LOGIN_TOKEN_INVALID);
