@@ -18,6 +18,7 @@
         <module>commons</module>
         <module>bank-customer-api</module>
         <module>bank-loan-api</module>
+        <module>bank-remit-api</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>
@@ -29,14 +30,14 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-        <!--<dependency>
+        <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-consul-config</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-consul-discovery</artifactId>
-        </dependency>-->
+        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
