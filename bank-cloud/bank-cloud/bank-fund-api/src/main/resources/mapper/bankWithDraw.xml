@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.fh.dao.BankWithDrawDao" >
+
+    <insert id="insertBankWithDraw" parameterType="com.fh.beans.BankWithdraw">
+        insert into bank_withdraw (withdraw_id,cust_id,account,withdraw_money,wirhdraw_date,arrive_time,reviewer_id)
+          values (#{cust_id},#{account},#{withdraw_money},#{wirhdraw_date},#{arrive_time},#{reviewer_id})
+    </insert>
+    <update id="updateBalances" >
+        update bank_account set balances=balances-#{balances}
+        where cust_id=#{userId}
+    </update>
+    <select id="selectBalances" parameterType="java.lang.String" resultType="java.lang.Double">
+        select balances from bank_account
+        where cust_id=#{cust_id}
+    </select>
+</mapper>

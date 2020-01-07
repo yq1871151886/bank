@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.fh.dao.FundHoldDao" >
+    <select id="selectFoudList" resultType="com.fh.beans.BankFundHold" parameterType="java.lang.String">
+        select * from bank_fund_hold
+        where cust_id=#{cust_id}
+    </select>
+    <select id="selectFoudCount" resultType="java.lang.Long" parameterType="java.lang.String">
+        select count() from bank_fund_hold
+    </select>
+
+    <select id="selectFundLogList" resultType="com.fh.beans.BankFundHold" parameterType="java.lang.String">
+        select * from bank_fund_log
+        where cust_id=#{cust_id}
+    </select>
+    <select id="selectFundLogCount" resultType="java.lang.Long" parameterType="java.lang.String">
+        select count(fund_tx_id) from bank_fund_log
+    </select>
+
+    <select id="selectFundLogById"  resultType="com.fh.beans.BankFundLog" >
+        select * from bank_fund_log
+        where fund_tx_id = #{fund_tx_id} and cust_id=#{cust_id}
+    </select>
+    <insert id="insertfundHold" parameterType="com.fh.beans.BankFundHold">
+        insert into bank_fund_hold (cust_id,account,fund_id,share)
+          values (#{cust_id},#{account},#{fund_id},#{share})
+    </insert>
+    <insert id="insertBankFundLog" parameterType="com.fh.beans.BankFundLog">
+         insert into bank_fund_log (fund_tx_id,cust_id,account,fund_id,type,share,tx_date,review_id)
+          values (#{fund_tx_id},#{cust_id},#{account},#{fund_id},#{type},#{share},#{tx_date},#{review_id})
+    </insert>
+    <sql id="selectFundAllSql" >
+            limit #{pageBean.start},#{pageBean.length}
+    </sql>
+</mapper>

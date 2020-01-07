@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.fh.dao.TransferDao" >
+
+    <insert id="createTransfer" parameterType="com.fh.beans.BankTransferLog">
+        insert into bank_transfer_log (transfer_id,transfer_out_account,transfer_in_account,amount,transfer_date,receive_date)
+          values (#{transfer_id},#{transfer_out_account},#{transfer_in_account},#{amount},#{transfer_date},#{receive_date})
+    </insert>
+
+    <select id="selectOutTransferLog" parameterType="java.lang.String" resultType="com.fh.beans.BankTransferLog">
+        select * from bank_transfer_log
+        where transfer_out_account =#{account}
+    </select>
+
+    <select id="selectInTransferLog" parameterType="java.lang.String" resultType="com.fh.beans.BankTransferLog">
+        select * from bank_transfer_log
+        where transfer_in_account =#{account}
+    </select>
+    <select id="selectTransferLogById" parameterType="java.lang.String" resultType="com.fh.beans.BankTransferLog">
+        select * from bank_transfer_log
+        where transfer_id =#{id}
+    </select>
+</mapper>

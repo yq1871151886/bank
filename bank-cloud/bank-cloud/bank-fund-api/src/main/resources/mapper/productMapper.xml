@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.fh.dao.ProductDao" >
+    <select id="selectProductAll" resultType="com.fh.beans.BankFundProduct">
+        select * from bank_fund_product
+        <include refid="selectProductAllSql"></include>
+    </select>
+    <select id="selectProductCount" resultType="java.lang.Long">
+        select count(fund_id) from bank_fund_product
+    </select>
+    <select id="selectProductById" parameterType="java.lang.String" resultType="com.fh.beans.BankFundProduct">
+          select * from bank_fund_product where fund_id=#{fund_id}
+    </select>
+    <sql id="selectProductAllSql">
+            limit #{pageBean.start},#{pageBean.length}
+    </sql>
+</mapper>
